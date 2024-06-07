@@ -1,0 +1,72 @@
+h1, h2, h3, p, li, a, label, button {
+    color: #fff;
+    font-family: "Poppins", "Nunito Sans", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.7rem;
+    color: #00FFFF;
+    text-align: center;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    height: 100vh;
+    margin-inline: auto;
+    display: grid;
+    place-items: center;
+}
+
+.rating {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.dialogBtn {
+    background-color: #00eeffa2;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.dialogBtn:hover {
+    background-color: #00eeff81;
+}
+
+.dialogBox {
+    display: none;
+    position: relative;
+    z-index: auto;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.stars span, .dialogBox span {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+    
+.dialogBox h2 {
+    color: #000;
+}
+
+.dialogClose {
+    background-color: #00eeffa2;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.dialogClose:hover {
+    background-color: #00eeff81;
+}
